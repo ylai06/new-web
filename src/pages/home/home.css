@@ -1,0 +1,50 @@
+.main_header{
+  width: 100vm;
+  height: calc(100vm-15rem);
+  display: grid;
+  place-items: center;
+  margin-top: 15rem;
+}
+
+.main_header_container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6rem;
+}
+
+.main_header_left {
+  margin-top: -3rem;
+}
+
+.main_header_left h4 {
+  margin-bottom: 1rem;
+  color: var(--color-secondary);
+  font-weight: 400;
+}
+
+.main_header_left p {
+  margin: 1rem 0 3.5rem;
+  font-size: 1.1rem;
+}
+
+.main_header_right {
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.main_header_circle {
+  width: 20rem;
+  height: 20rem;
+  background: linear-gradient(75deg, var(--color-secondary), transparent);
+  border-radius: 50%;
+  position: absolute;
+  filter: blur(15px);
+}
+
+.main_header_image {
+  position: relative;
+}
